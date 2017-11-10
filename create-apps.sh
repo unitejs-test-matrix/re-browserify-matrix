@@ -2,9 +2,8 @@
 set -e
 
 #
-# React
+# React Browserify
 #
-
 node unitejs/cli/bin/unite configure --packageName=re-bfy-js-jas-pro --title="React Browserify JavaScript" --sourceLanguage=JavaScript --moduleType=CommonJS --bundler=Browserify --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=Jasmine --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=PostCss --appFramework=React --disableVersionCheck --outputDirectory=./apps/re-bfy-js-jas-pro
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/re-bfy-js-jas-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/re-bfy-js-jas-pro
